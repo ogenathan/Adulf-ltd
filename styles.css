@@ -1,0 +1,211 @@
+main{
+    max-width: 100vw;
+
+}
+.main-section{
+    height: 100vh;
+    background-image: url('images/pexels-karl-solano-2884590.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 14, 0.5);
+    color: #ffffff;
+    padding: 25px; 
+}
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10 15px;
+    padding: 0 20px ;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+}
+
+.menu-btn{
+    cursor: pointer;
+    font-size:16px;
+}
+
+.nav-links{
+    display:none;
+}
+.show-links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-height: 2em;
+}
+
+.show-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.show-links a:hover{
+    color: white;
+    background-color: rgb(255, 233, 143);
+    padding: 8px;
+    border-radius: 12px;
+
+}
+
+.logo{
+    font-family: 'Martel', serif;
+    font-weight: 600; 
+    color: hsl(48, 100%, 49%); 
+}
+
+
+
+/*The project section*/
+.project{
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    transform: translateY(100px);
+}
+
+
+.project h4{
+    font-family: 'Martel', serif;
+    font-weight: 800; 
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.project-title,.main-service h3,.value h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+
+.btn{
+    background-color: hsl(48, 100%, 49%);
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.project-paragraph{
+    text-align: left;
+    letter-spacing: 0.04em;
+}
+
+/*The story section and service and value section elements*/
+.story-section,.main-service,.values,.footer{
+    padding: 25px;
+}
+.story-section h4,.main-service h4,.values h4{
+    text-transform: uppercase;
+    font-family: 'Martel', serif;
+    font-weight: 600; 
+    color: hsl(48, 100%, 49%);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.story-section-paragraph,.main-service p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.stats{
+    font-family: 'Martel', serif;
+    font-weight: 800; 
+    color:hsl(48, 100%, 49%) ;
+    font-size: 30px;
+}
+.stats-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+/*Service Section*/
+.services{
+    background-color: rgb(253, 236, 214);
+}
+.service-background-img{
+    height: 60vh;
+    background-image: url('images/pexels-aleksandar-pasaric-4201659.jpg') ;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.prev,.next{
+    height: 2rem;
+    width: 2.5rem;
+    margin-top: 30vh;
+    background-color: transparent;
+    color: white ;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+
+.learn-btn{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: solid 2px hsl(48, 100%, 49%);
+    border-radius: 20px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+   
+}
+/*the value section*/
+.value i{
+    color: hsl(48, 100%, 49%);
+    padding-top: 3.5rem;
+    font-size: 40px;
+}
+
+.value-slogan{
+    font-family: 'Martel', serif;
+    font-weight: 600; 
+    font-size: 24px;
+}
+
+/*footer section*/
+.footer{
+    color: white;
+    background-color: #05080F;
+    font-size: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.footer .logo{
+    font-size: 20px;
+}
+.footer-slogan{
+    font-family: 'Martel', serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(182, 177, 177);
+}
